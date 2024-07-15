@@ -1,48 +1,69 @@
-// (1) Table Print karna
- // var user = +prompt("Enter your number");
+
+// (1) Table Print Karna
+// var userInput = +prompt("enter your table number");
 
 // for (var i = 1; i <= 10; i++) {
-//     var multiply = user*i;
 
-//     console.log(`${user} * ${i} = ${multiply}`)
+//     console.log(`${userInput} * ${i} = ${userInput * i}`);
 // }
 
 
-// (2) Array elements ka Sum print karna
-// var elements = [];
+
+
+// (2) Array elements ka sum print karna:
+
+// var array = [];
 // var sum = 0;
 
 // for (var i = 0; i < 5; i++) {
-//     var user = +prompt("enter your numbers");
-//    elements.push(user);
-//    sum += elements[i];
-// }
+//     var userInput = +prompt("Enter your 5 numbers");
+//     array.push(userInput)
+//     sum += array[i];
 
-// console.log(elements);
+// }
+// console.log(array);
 // console.log(sum);
 
-// (3)ARRAY KA SUB SE BARA NUMBER PRINT KARNA
-// var numbers = [];
+
+
+
+
+
+// (3) Array elements ka sub se bara number print karay:
+
+// var array = [];
 // var max = 0;
 
-// for (var i = 0; i < 5; i++) {
-// var user = +prompt("Enter numbers");
-// numbers.push(user);
+// for (var i = 0; i < 5; i++){
 
-// if(numbers[i] > max ) {
-//     max = numbers[i]
+//     var userInput = +prompt("eneter your numbers");
+//     array.push(userInput);
+
+//     if (array[i] > max ){
+
+//         max = array[i]
+//     }
+
+
+// }
+// console.log(array);
+// console.log(max);
+
+
+
+
+
+
+// (4) User say string le or usko ulta print karain:
+
+// var userInput = prompt("enter your msg");
+
+// var rever = " ";
+
+// for (var i = userInput.length -1; i >= 0; i--) {
+
+//     rever += userInput[i];
+
 // }
 
-// }
-// console.log(numbers)
-// console.log(max)
-
-// (4) User say string lena
-var user = prompt("enter your msg");
-var reverse = " ";
-
-for (var i = user.length -1; i >= 0 ; i--) {
-    reverse += user[i];
-}
-
-console.log(reverse)
+// console.log(rever);
