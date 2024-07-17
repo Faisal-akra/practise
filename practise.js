@@ -27,8 +27,6 @@
 
 
 
-
-
 // (3) Array elements ka sub se bara number print karay:
 
 // var array = [];
@@ -67,3 +65,17 @@
 // }
 
 // console.log(rever);
+
+
+// factorial Find karna:
+
+var user = +prompt("please enter a number");
+
+var factorial = 1;
+
+for (var i = 2; i <= user; i++) {
+
+    factorial = factorial * i;
+}
+
+console.log(factorial);
